@@ -1,0 +1,104 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello!",
+        "Hi!",
+        "How is it going?",
+        "Good day!",
+        "Hey!",
+        "Hey there!",
+        "Hello there!"
+      ],
+      "responses": [
+        "Hello!",
+        "what can I do for you?",
+        "Hello!",
+        "Hello my friend!",
+        "Hi sexy"
+      ]
+    },
+    {
+      "tag": "good_bye",
+      "patterns": [
+        "Good bye!",
+        "bye!",
+        "See you!",
+        "Quit",
+        "Exit"
+      ],
+      "responses": [
+        "See you later!",
+        "Good bye!",
+        "Adios!",
+        "Later, Aligator!",
+        "Quiting now"
+      ]
+    },
+    {
+      "tag": "take_note",
+      "patterns": [
+        "Can you take note?",
+        "Take note",
+        "I'd like to write this down!",
+        "Can you write this for me?",
+        "I want to take note",
+        "Write this"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "add_todo",
+      "patterns": [
+        "Add to my to do list!",
+        "I want to update my to do list",
+        "update to do list",
+        "Add item to my to do list",
+        "Add to the list of to do",
+        "New item",
+        "New task"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "read_todo",
+      "patterns": [
+        "Read the to do list",
+        "What is in my list?",
+        "What else I should still do?",
+        "What are my tasks to do?",
+        "What are the remaining tasks?",
+        "Can you read the to do list?",
+        "Read the task list",
+        "What are my tasks?",
+        "I want to know my to do list",
+        "I want to know the task list",
+        "My to do list?",
+        "My task list?"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "read_time",
+      "patterns": [
+        "What time is it?",
+        "What is the time?",
+        "Do you know the time?",
+        "Can you read the time for me?",
+        "How late is it now?",
+        "Time?",
+        "I want to know the time"
+      ],
+      "responses": [
+        ""
+      ]
+    }
+  ]
+}
